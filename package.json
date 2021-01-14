@@ -1,5 +1,9 @@
 {
   "name": "my-super-amazing-npm-app",
   "version": "0.0.1",
-  "private": false
+  "private": false,
+  "description": "My private description is here",
+  "repository": {
+    "private": false
+  }
 }
