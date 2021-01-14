@@ -2,7 +2,7 @@
   "name": "my-super-amazing-npm-app",
   "version": "0.0.1",
   "private": false,
-  "license" : "MIT license",
+  "license" : "SEE LICENSE IN WTFPL",
   "description": "My private description is here",
   "repository": {
     "private": false
