@@ -2,6 +2,7 @@
   "name": "my-super-amazing-npm-app",
   "version": "0.0.1",
   "private": false,
+  "license" : "MIT license" 
   "description": "My private description is here",
   "repository": {
     "private": false
