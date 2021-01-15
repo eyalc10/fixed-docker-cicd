@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('NodeJS example job') {
     scm {
         git('git://github.com/wardviaene/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
@@ -14,6 +14,9 @@ job('NodeJS example') {
     }
     steps {
         shell("npm install")
+        shell("echo This job was created by the \"boilerplate\" job that takes a DSL from GIT and created me accordingly")
+")
+
     }
 }
 
