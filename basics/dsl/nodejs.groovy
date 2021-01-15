@@ -15,8 +15,6 @@ job('NodeJS example job') {
     steps {
         shell("npm install")
         shell("echo This job was created by the \"boilerplate\" job that takes a DSL from GIT and created me accordingly")
-")
-
     }
 }
 
