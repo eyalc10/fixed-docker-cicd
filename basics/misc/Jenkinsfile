@@ -14,9 +14,8 @@ node {
      }
    }
    stage('docker build/push') {
-      sh 'ls -l'
      docker.withRegistry('https://index.docker.io/v1/', 'dockerhubcred') {
-       def app = docker.build("eyalc10/docker-nodejs-demo:${commit_id}", '/basics').push()
+       def app = docker.build("eyalc10/docker-nodejs-demo:${commit_id}", './basics').push()
      }
    }
    stage('docker run') {
